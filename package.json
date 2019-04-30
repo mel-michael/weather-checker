@@ -1,0 +1,24 @@
+{
+  "name": "weather-checker",
+  "version": "1.0.0",
+  "description": "A node app that logs the current time and weather for a given location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mel-michael/weather-checker.git"
+  },
+  "keywords": [],
+  "author": "Mel Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mel-michael/weather-checker/issues"
+  },
+  "homepage": "https://github.com/mel-michael/weather-checker#readme",
+  "dependencies": {
+    "typescript": "^3.4.5"
+  }
+}
