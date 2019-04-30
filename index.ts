@@ -33,4 +33,4 @@ const getWeather = async ([locationName, postalCode]: [string, number]) => {
 }
 
 // Call getWeather with test input
-getWeather(['NYC', 10001])
+getWeather(['Georgia', 30002])
