@@ -27,10 +27,10 @@ const getWeather = async ([locationName, postalCode]: [string, number]) => {
 	}
 
   if (currentWeather && currentWeather.data) {
-		const { name, weather } = currentWeather.data 
-    console.log(`${currentTime}: There's a ${weather[weather.length - 1].description} in ${name}, ${locationName}`) 
+		const { weather } = currentWeather.data 
+    console.log(`${currentTime}: There's a ${weather[weather.length - 1].description} in ${locationName}`) 
 	}
 }
 
 // Call getWeather with test input
-getWeather(['Georgia', 30002])
+getWeather(['New York', 10005])  // Change array input to see result

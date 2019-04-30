@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./build/index.js",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
+    "prod": "tsc && node ./build/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "@types/node": "^11.13.8",
     "axios": "^0.18.0",
     "dotenv": "^7.0.0",
+    "ts-node-dev": "^1.0.0-pre.32",
     "typescript": "^3.4.5"
   }
 }
